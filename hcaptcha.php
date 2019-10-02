@@ -10,15 +10,15 @@ if(!defined("IN_MYBB"))
 function myplugin_info()
 {
 	return array(
-		"name"			=> "",
-		"description"	=> "",
-		"website"		=> "",
-		"author"		=> "",
-		"authorsite"	=> "",
-		"version"		=> "1.0",
+		"name"			=> "hCaptcha",
+		"description"	=> "hCaptcha is a drop-in replacement for reCAPTCHA that earns websites money and helps companies get their data labeled.",
+		"website"		=> "https://github.com/borekon/hcaptha",
+		"author"		=> "Alfonso Vivancos",
+		"authorsite"	=> "https://alfonso.vivancos.eu",
+		"version"		=> "0.1",
 		"guid" 			=> "",
-		"codename"		=> "",
-		"compatibility" => "*"
+		"codename"		=> "hCaptcha",
+		"compatibility" => "18*"
 	);
 }
 
